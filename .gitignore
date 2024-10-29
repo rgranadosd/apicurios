@@ -1,0 +1,6 @@
+# Ignorar archivos de configuración y secretos
+*.env
+
+# Ignorar archivos de sistema de macOS
+.DS_Store
+
