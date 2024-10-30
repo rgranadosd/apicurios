@@ -7,7 +7,7 @@ const OPENAI_REALTIME_API_URL = 'wss://api.openai.com/v1/realtime?model=gpt-4o-r
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 
 // Archivo de audio que se enviará a la API
-const AUDIO_FILE_PATH = path.join(__dirname, 'pregunta.pcm');
+const AUDIO_FILE_PATH = path.join(__dirname, '/sample/pregunta.pcm');
 
 // Verificar que el archivo de audio exista
 if (!fs.existsSync(AUDIO_FILE_PATH)) {
